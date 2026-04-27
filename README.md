@@ -22,7 +22,7 @@ The layout is fully responsive and adapts seamlessly across different screen siz
 
 ## LIVE
 
-[LIVE]()
+[LIVE](https://amrithaamzz.github.io/Beats-Landing-Page/)
 
 
 ## Features
