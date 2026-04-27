@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100..900&family=Montserrat:wght@100..900&family=Inter:wght@100..900&family=Michroma&display=swap" rel="stylesheet">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            poppins: ["Poppins", "sans-serif"],
+            mont: ["Montserrat", "sans-serif"],
+            inter: ["Inter", "sans-serif"],
+          }
+        }
+      }
+    }
+  </script>
+
+  <title>Beats</title>
+</head>
+
+<body class="bg-black text-white font-poppins">
+
+<main class="min-h-screen px-6 lg:px-20 overflow-hidden">
+
+  <nav class="flex justify-between items-center py-6 px-9">
+    <img src="./beats/beatsLogo.png" class="h-10">
+
+    <ul class="hidden lg:flex md:gap-14 text-lg text-1xl font-semibold text-white font-inter md:px-9">
+      <li class="cursor-pointer hover:bg-gray-700">Home</li>
+      <li class="cursor-pointer hover:bg-gray-700">Specs</li>
+      <li class="cursor-pointer hover:bg-gray-700">Case</li>
+      <li class="cursor-pointer hover:bg-gray-700">Products</li>
+      <li class="cursor-pointer hover:bg-gray-700">Shop</li>
+    </ul>
+
+    <i class="fa-solid fa-bars text-2xl lg:hidden"></i>
+  </nav>
+
+  
+  <section class="flex flex-col lg:flex-row items-center justify-between gap-10">
+    
+    <img src="./beats/mainImage.png"
+         class="hidden lg:block h-[550px] absolute left-40 top-0">
+
+    <div class="lg:w-1/2"></div>
+
+    <div class="flex flex-col items-center lg:items-start gap-6 text-center lg:text-left">
+      <img src="./beats/onEar.png" class="mt-6">
+
+      <h1 class="text-4xl font-semibold mt-3">Beats 3</h1>
+      <h1 class="text-1xl font-bold">Overview:</h1>
+
+      <p class="max-w-md font-poppins">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br> Vel, ex voluptas quasi quod tempora a magni tempore <br> voluptatem quaerat temporibus autem natus reiciendis  <br>inventore nisi.
+      </p>
+
+      <button class="flex items-center gap-3 bg-gray-900 px-4 py-2 rounded-md mt-4">
+        <img src="./beats/shoppingBag.png" class="h-5">
+        Add to Bag <span class="font-bold">N399K</span>
+      </button>
+
+    </div>
+
+  </section>
+  
+  
+  <div class="flex flex-wrap items-center justify-center gap-8 sm:gap-12 lg:gap-20 px-5 mt-14">
+
+    <img src="./beats/appleLogo.png" class="h-8 sm:h-10 lg:h-12 w-auto">
+    <img src="./beats/spotifyLogo.png" class="h-8 sm:h-10 lg:h-12 w-auto">
+    <img src="./beats/amazonLogo.png" class="h-8 sm:h-10 lg:h-12 w-auto">
+    <img src="./beats/youtubeLogo.png" class="h-8 sm:h-10 lg:h-12 w-auto">
+  
+  </div>
+  <section class="text-center py-10">
+    <img src="./beats/specsLogo.png" class="mx-auto mb-10 mt-12">
+
+    <div class="flex md:flex-col lg:flex-row justify-center items-center gap-10">
+
+      <div class="grid grid-cols-2 md:flex-row gap-8 text-left">
+        <div>
+          <img src="./beats/bluetooth.png" class="h-6">
+          <h2 class="font-bold">Connection</h2>
+          <p class="font-poppins">Bluetooth v5.2</p>
+        </div>
+
+        <div>
+          <img src="./beats/battery.png" class="h-6">
+          <h2 class="font-bold">Battery</h>
+            <p class="font-poppins font-normal"> Duration 40h</p>
+        </div>
+
+        <div>
+          <img src="./beats/charger.png" class="h-6">
+          <h2 class="font-bold">Load</h2>
+          <p class="font-poppins">Fast charge 4.2-AAC</p>
+        </div>
+
+        <div>
+          <img src="./beats/mic.png" class="h-6">
+          <h2 class="font-bold">Microphone</h2>
+          <p class="font-poppins">Supports Apple Siri & Google</p>
+        </div>
+      </div>
+
+      <img src="./beats/specsImage.png" class="h-80 px-9">
+    </div>
+  </section>
+
+  <div class="flex justify-center py-10 mt-9">
+    <img src="./beats/caseLogo.png" alt="">
+ </div>
+
+  <section class="md:flex justify-center lg:px-40 px-6 gap-5 mt-5">
+
+    <img src="./beats/caseImage.png">
+   
+    <div class="max-w-md space-y-6 mt-24">
+      <p>
+        Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit. Id <br>ratione autem a libero omnis <br>ducimus modi, sint voluptates <br>numquam animi blanditiis suscipit.
+      </p>
+
+      <button class="flex items-center gap-4 bg-gray-900 px-6 py-2 rounded-md mt-9">
+        <img src="./beats/group.png" class="h-5">
+        More Info
+      </button>
+    </div>
+  
+  </section>
+
+  <section class="bg-gray-900 rounded-md flex flex-col lg:flex-row items-center justify-between mt-24 px-4 lg:px-10 py-6 lg:py-10 gap-6">
+
+    <!-- Text content -->
+    <div class="text-center lg:text-left">
+      <h2 class="text-xl sm:text-2xl lg:text-3xl font-bold font-mont mt-4 lg:mt-0">
+        Immerse yourself in your music
+      </h2>
+  
+      <p class="mt-2 text-sm sm:text-base">
+        Buy Now, up to 40% off.
+      </p>
+  
+      <button class="mt-4 flex items-center justify-center lg:justify-start gap-2 bg-black px-5 py-2 rounded-md mx-auto lg:mx-0">
+        <img src="./beats/shoppingBag.png" class="h-5 w-5">
+        Buy Now
+      </button>
+    </div>
+  
+    <!-- Image -->
+    <img src="./beats/buyNowSectionImage.png" class="w-40 sm:w-56 lg:w-72 h-auto">
+    
+  </section>
+
+
+<section class="text-center py-10 mt-9">
+    <img src="./beats/productLogo.png" class="mx-auto mb-10">
+
+  <div class="flex flex-wrap justify-center gap-10 mt-24">
+
+      <div class="bg-gray-900 w-40 h-40 rounded-md relative p-4 mt-4">
+        <img src="./beats/black.png"
+             class="absolute -top-12 left-6 h-32">
+        <h2 class="mt-16"><span class=" font-bold">Black</span><br>N299K</h2>
+        
+        <button class="bg-black px-2 py-1 rounded-md flex ">
+        <img src="./beats/shoppingBag.png" alt="" >
+        </button>
+      </div>
+
+      <div class="bg-gray-900 w-40 h-40 rounded-md relative p-4 mt-4">
+        <img src="./beats/redBlack.png"
+             class="absolute -top-12 left-6 h-32">
+             <h2 class="mt-16"><span class=" font-bold">Red Black</span><br>N299K</h2>
+             
+             <button class="bg-black px-2 py-1 rounded-md flex">
+                <img src="./beats/shoppingBag.png" alt="" >
+            </button>
+      </div>
+
+      <div class="bg-gray-900 w-40 h-40 rounded-md relative p-4 mt-4">
+        <img src="./beats/nightBlack.png"
+             class="absolute -top-12 left-6 h-32">
+             <h2 class="mt-16"><span class=" font-bold">Night Black</span><br>N299K</h2>
+
+             <button class="bg-black px-2 py-1 rounded-md flex">
+                <img src="./beats/shoppingBag.png" alt="" >
+            </button>
+      </div>
+     
+      <div class="bg-gray-900 w-40 h-40 rounded-md relative p-4 mt-4">
+        <img src="./beats/blue.png"
+             class="absolute -top-12 left-6 h-32">
+             <h2 class="mt-16"><span class=" font-bold">Blue</span><br>N299K</h2>
+             
+             <button class="bg-black px-2 py-1 rounded-md flex">
+                <img src="./beats/shoppingBag.png" alt="" >
+            </button>
+      </div>
+
+      <div class="bg-gray-900 w-40 h-40 rounded-md relative p-4 mt-4">
+        <img src="./beats/twilightGray.png"
+             class="absolute -top-12 left-6 h-32">
+             <h2 class="mt-16"><span class=" font-bold">Twilight Gray</span><br>N299K</h2>
+
+             <button class="bg-black px-2 py-1 rounded-md flex">
+                <img src="./beats/shoppingBag.png" alt="" >
+            </button>
+      </div>
+
+    </div>
+  </section>
+
+
+  <footer class="flex flex-col lg:flex-row items-center justify-center gap-8 lg:gap-24 py-10 mt-14">
+
+    <img src="./beats/beatsLogo.png" class="h-10 lg:h-16 w-auto">
+  
+  
+
+    <div>
+      <h3 class="font-bold font-poppins text-xl mb-2">Products</h3>
+      <ul class="mt-2 font-inter text-1xls">
+        <li>Headphones</li>
+        <li>Earphones</li>
+        <li>Earbuds</li>
+        <li>Accessories</li>
+      </ul>
+    </div>
+
+    <div>
+      <h3 class="font-bold  font-poppins text-xl mb-2">Support</h3>
+      <ul class="mt-2 font-inter">
+        <li>Product Help</li>
+        <li>Register</li>
+        <li>Updates</li>
+        <li>Providers</li>
+      </ul>
+    </div>
+
+    <div class="space-y-4">
+      <div class="flex bg-stone-800 rounded-md p-2">
+        <input type="email" placeholder="    Email"
+               class="bg-transparent w-full outline-none">
+        <button class="bg-black px-3 py-1 rounded-md">Subscribe<i class="fa-regular fa-paper-plane"></i>
+        </button>
+      </div>
+
+      <div class="flex gap-6">
+        <img src="./beats/facebook.png">
+        <img src="./beats/twitter.png">
+        <img src="./beats/instagram.png">
+        <img src="./beats/linkedin.png">
+      </div>
+    </div>
+
+</footer>
+
+</main>
+</body>
+</html>
